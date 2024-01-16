@@ -1,0 +1,45 @@
+.usp-carousel__container {
+    justify-content: center;
+}
+
+.header-main__inner {
+    padding: 17px 15px;
+}
+
+.header-main__hamburger {
+    display: inline-block;
+}
+
+.header-main__search-button {
+    margin-left: auto;
+}
+
+/* Hiding Show-More for device width greater than 480px */
+#show-more {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #main-description__content {
+        max-height: 14vh;
+        overflow: hidden;
+        /* Transition set for smooth expansion and contraction of show-more and show-less feature */
+        transition: max-height 0.5s;
+    }
+
+    #main-description__content.open {
+        max-height: 100vh;
+        /* Set transition for smooth expansion */
+        transition: max-height 1s;
+    }
+
+    #show-more {
+        color: var(--color-teal);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 15px;
+        display: block;
+        cursor: pointer;
+        text-align: center;
+    }
+}
