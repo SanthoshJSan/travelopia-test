@@ -6,8 +6,8 @@
    ->script.js: Implements interactivity using JavaScript, allowing for dynamic navigation and response tracking.
 4. Performance:
    ->The performance of the application was tested using chrome DEV tools periodically and optimised at the time of encountered bottlenecks and the final performance acheived is as follows:
-       7 ms  Loading
-      136 ms  Scripting
-      21 ms  Rendering
-      5 ms  Painting
-      155 ms  System
+       7 ms  Loading, 
+      136 ms  Scripting, 
+      21 ms  Rendering, 
+      5 ms  Painting, 
+      155 ms  System.
